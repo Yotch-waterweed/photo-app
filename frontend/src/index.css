@@ -1,0 +1,97 @@
+/* ===============================
+   Reset / Base
+================================ */
+
+/* 画面全体を100%使えるようにする（超重要） */
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
+
+/* bodyはレイアウトしない（flex禁止） */
+body {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  background-color: #242424;
+  color: rgba(255, 255, 255, 0.9);
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+/* ===============================
+   Typography
+================================ */
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+
+/* ===============================
+   Links
+================================ */
+
+a {
+  color: #646cff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #8b92ff;
+}
+
+
+/* ===============================
+   Buttons
+================================ */
+
+button {
+  border-radius: 8px;
+  border: none;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  background-color: #1a1a1a;
+  color: white;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+button:hover {
+  background-color: #333;
+}
+
+
+/* ===============================
+   Images
+================================ */
+
+/* 画像のはみ出し防止 */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+
+/* ===============================
+   Light mode（お好み）
+================================ */
+
+@media (prefers-color-scheme: light) {
+  body {
+    background: #ffffff;
+    color: #222;
+  }
+
+  button {
+    background: #f3f3f3;
+    color: #222;
+  }
+}
