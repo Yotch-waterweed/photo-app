@@ -27,5 +27,5 @@ This is a simple photo uploading web application with a React frontend and an Ex
     npm run dev -- --host
     ```
     The frontend will be accessible at `http://localhost:5173`.
-    Network: http://192.168.XXXXXX/ <- type your url in your Phone or another devices when using same Wifi as localhost.
+    Network: http://192.168.XXXXXX/ <- type url in your Phone or another devices when using same Wifi as localhost.
     
